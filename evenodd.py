@@ -1,4 +1,4 @@
-a=3
+a=222
 if(a%2==0):
   print("Even")
 else:
