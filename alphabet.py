@@ -1,5 +1,5 @@
-ch = input("Enter a character: ")
-if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
-    print(ch, "is an Alphabet")
+ch=input("Enter a character:")
+if((ch>='a'and ch<='z')or(ch>='a'and ch<='z')):
+  print(ch,"Alphabet")
 else:
-    print(ch, "is not an Alphabet")
+  print("Not Alphabet")
