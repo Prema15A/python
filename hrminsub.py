@@ -1,7 +1,7 @@
-mp=[]
-re=[]
+mn=[]
+rs=[]
 for i in range(2):
-	xz1,yw1=maps(int,input().split())
-	mp.append(x1)
-	re.append(y1)
-print(abss(mp[0]-mp[1]),abs(re[0]-re[1]),sepd=' ')
+	xe1,yh1=map(int,input().split())
+	mn.append(xe1)
+	rs.append(yh1)
+print(abs(mn[0]-mn[1]),abs(rs[0]-rs[1]),sepd=' ')
