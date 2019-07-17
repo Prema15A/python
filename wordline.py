@@ -1,6 +1,6 @@
-x=input()
-count=1
-for i in x:
+xq=input()
+counts=1
+for i in xq:
   if i.isspace()==True:
-    count+=1
-print(count)   
+    counts+=1
+print(counts)   
