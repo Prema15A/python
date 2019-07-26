@@ -1,4 +1,4 @@
-wq,za=input().split()
-	za=int(za)
-	for i in range(za):
-	  print(wq)
+bin,pin=input().split()
+	pin=int(pin)
+	for i in range(pin):
+	  print(bin)
