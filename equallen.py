@@ -1,5 +1,5 @@
 dad,hue=input().split()
-if len(sri)<=len(hue):
+if len(dad)<=len(hue):
   print(hue)
 else:
   print(dad)
