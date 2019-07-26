@@ -1,4 +1,4 @@
-w,z=input().split()
-	z=int(z)
-	for i in range(z):
-	  print(w)
+wq,za=input().split()
+	za=int(za)
+	for i in range(za):
+	  print(wq)
