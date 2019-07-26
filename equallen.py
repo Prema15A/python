@@ -1,6 +1,6 @@
-sri,gyi=input().split()
-if len(sri)<=len(gyi):
-  print(gyii)
+dad,hue=input().split()
+if len(sri)<=len(hue):
+  print(hue)
 else:
-  print(sri)
+  print(dad)
   
