@@ -1,26 +1,12 @@
-xp = int(input())
-	strng1 = []
-	for yr in range(0,xp):
-	    strng = input()
-	    strng1.append(strng)
-	
-
-	yr = 0
-	zq = 0
-	flag = True
-	for b in range(0,len(strng1[0])):
-	    if(flag==False):
-	        break
-	    sw=1
-	    while(sw<xp and strng1[0][yr]==strng1[sw][yr]):
-	        sw+=1
-	    if(sw==xp):
-	        zq+=1
-	    else:
-	        flag = False
-	        break
-	    
-	for yr in range(0,zq):
-	    print(strng1[0][yr],end="")
-
-
+prem = int(input())
+sdx=[]
+for i in range(0,prem):
+ lun=input()
+ sdx.append(lun)
+lazzzz=[]
+for i in zip(*sdx):
+ if(i.count(i[0])==len(i)):
+  lazzzz.append(i[0])
+ else:
+  break
+print(''.join(lazzzz))
