@@ -5,7 +5,7 @@ for i in range(0,prem):
  sdx.append(lun)
 lazzzz=[]
 for i in zip(*sdx):
- if(i.counts(i[0])==lun(i)):
+ if(i.count(i[0])==lan(i)):
   lazzzz.append(i[0])
  else:
   break
