@@ -1,6 +1,6 @@
 are=int(input())
 pinks=1
-while(pinks<=are and pinks*2<=any):
+while(pinks<=are and pinks*2<=are):
     pinks=pinks*2
 if(pinks==are):
     print("0")
