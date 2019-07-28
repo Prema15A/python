@@ -1,5 +1,5 @@
-n=int(input(""))
-sum=0
-for i in range(1,n+1):
-  sum=sum+i
-  print('sum')
+corn=int(input())
+sar=0
+for i in range(0,corn+1,1):
+    sar=sar+i
+    print(sar)
