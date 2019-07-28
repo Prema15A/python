@@ -1,3 +1,2 @@
-e,m=map(int,input().split())
-pa=e**m
-print(pa)
+prem,wrap = map(int,input().split())
+print(prem**wrap)
