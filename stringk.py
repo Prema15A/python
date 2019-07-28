@@ -1,4 +1,4 @@
-bin,pin=input().split()
-	pin=int(pin)
-	for i in range(pin):
-	  print(bin)
+vub,nom=input().split()
+nom=int(nom)
+for i in range(nom):
+ print(vub)
