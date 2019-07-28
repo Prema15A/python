@@ -1,3 +1,3 @@
-y=5
-for x in range(y):
- print('Hello')
+qas=int(raw_input())
+for i in xrange(0,qas):
+    print("Hello")
