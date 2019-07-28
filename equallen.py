@@ -1,6 +1,5 @@
-dad,hue=input().split()
-if len(dad)<=len(hue):
-  print(hue)
+usha,fgh=input().split()
+if(len(fgh)>=len(usha)):
+ print(fgh)
 else:
-  print(dad)
-  
+ print(usha)
