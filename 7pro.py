@@ -1,8 +1,8 @@
-are=int(input())
+arr=int(input())
 pinks=1
-while(pinks<=are and pinks*2<=are):
+while(pinks<=arr and pinks*2<=arr):
     pinks=pinks*2
-if(pinks==are):
+if(pinks==arr):
     print("0")
 else:    
-    print(are-pinks)
+    print(arr-pinks)
