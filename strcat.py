@@ -1,4 +1,2 @@
-sin1,bin2=map(str,input().split())
-	din4=sin1+bin2
-	print(din4)
-
+van1,yark2=input().split()
+print(van1+yark2)
