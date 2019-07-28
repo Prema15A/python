@@ -1,4 +1,4 @@
-tw=int(input())
-tamp1=input().split()
-for iq in range(tw):
-	print(tam1[iq],iq,sep=' ')
+prem=int(input())
+swd=list(map(int,input().split()[:prem]))
+for sq in range(prem):
+  print(swd[sq],sq)
