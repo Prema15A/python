@@ -1,4 +1,5 @@
-dm=int(input())
-aru1=list(map(int,input().split()))
-aru1=list(sorted(aru1))
-print(*aru1)
+sad=int(input())
+iyk=list(map(int,input().split()[:sad]))
+iyk.sort()
+for i in iyk:
+  print(i,end=" ")
