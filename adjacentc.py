@@ -1,3 +1,2 @@
-pqr=int(input())
-	stu=pqr
-	print(stu)
+slap=int(input())
+print(slap)
