@@ -1,5 +1,11 @@
-es=input()
-if es==es[::-1]:
+nom1=int(input())
+temper=nom1
+revs1=0
+while(nom1>0):
+    dq=nom1%10
+    revs1=revs1*10+dq
+    nom1=nom1//10
+if(temper==revs1):
     print("yes")
 else:
     print("no")
