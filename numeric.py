@@ -1,6 +1,5 @@
-mz=input()
-re=mz.lstrip('-').replace('.','',1).isdigit()
-if(re==True):
-	print("yes")
+soer1=input()
+if soer1.isdigit():
+   print("yes")
 else:
-	print("No")
+   print("No")
