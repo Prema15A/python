@@ -1,2 +1,3 @@
-mz=int(input())
-print(mz//60,mz%60,sep=' ')
+ziva=int(input(""))
+sy=ziva
+print(ziva//60,ziva%60)
