@@ -1,7 +1,5 @@
-mn=[]
-rs=[]
-for i in range(2):
-	xe1,yh1=map(int,input().split())
-	mn.append(xe1)
-	rs.append(yh1)
-print(abs(mn[0]-mn[1]),abs(rs[0]-rs[1]),sepd=' ')
+fgh,mins1=map(int,input().split())
+lnm,mins2=map(int,input().split())
+gif=abs(fgh-lnm)
+mop=abs(mins1-mins2)
+print(gif,mop)
