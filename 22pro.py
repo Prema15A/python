@@ -1,10 +1,8 @@
-#mano
-from itertools import combinations
-pxb,qgf=input().split()
-qgf=int(qgf)
-kxn=[]
-cpm=len(pxb)-qgf
-fakh=combinations(pxb,cpm)
-for i in list(fakh):
-kxn.append("".join(i))
-print(min(kxn))
+syr=int(input())
+bzh=list(map(int,input().split()))[:syr]
+zq=sum(bzh[0:syr:2])
+ywk=sum(bzh[1:syr:2])
+if zq>ywk:
+  print(zq)
+else:
+  print(ywk)
